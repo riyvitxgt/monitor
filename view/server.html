@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../bower_components/bootstrap/js/collapse.js"></script>
+    <script type="text/javascript" src="../bower_components/laypage/laypage.js"></script>
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title></title>
+</head>
+<body class="container panel-group"  id="server">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <strong>
+                    <a class="text-right" data-toggle="collapse"  data-parent="#server" aria-expanded="false" aria-controls="serverDetail" href="#serverDetail">
+                        服务器基本信息
+                        <span class="glyphicon glyphicon-menu-down pull-right"></span>
+                    </a>
+                </strong>
+            </h3>
+        </div>
+        <div class="panel-collapse collapse in" id="serverDetail">
+            <div class="panel-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><strong>服务器运行状态</strong></h4>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table table-bordered">
+                            <tbody>
+                            <tr class="info">
+                                <td>
+                                    <label class="col-md-5 text-right">服务器IP：</label>
+                                    <span class="col-md-7 text-left">192.168.0.1</span>
+                                </td>
+                                <td>
+                                    <label class="col-md-5 text-right">当前连接客户数：</label>
+                                    <span class="col-md-7 text-left">60</span>
+                                </td>
+                            </tr>
+                            <tr class="active">
+                                <td>
+                                    <label class="col-md-5 text-right">服务器启动时间：</label>
+                                    <span class="col-md-7 text-left">2015-11-23 08:42:25</span>
+                                </td>
+                                <td>
+                                    <label class="col-md-5 text-right">CPU使用率：</label>
+                                    <span class="col-md-7 text-left">30%</span>
+                                </td>
+                            </tr>
+                            <tr class="info">
+                                <td>
+                                    <label class="col-md-5 text-right">空余JAVA内存：</label>
+                                    <span class="col-md-7 text-left">192M</span>
+                                </td>
+                                <td>
+                                    <label class="col-md-5 text-right">总共JAVA内存：</label>
+                                    <span class="col-md-7 text-left">192M</span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">磁盘挂载信息</h4>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table table-condensed">
+                            <thead>
+                            <tr>
+                                <th>盘符/挂载点</th>
+                                <th>可用空间</th>
+                                <th>总空间</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>C:\</td>
+                                <td>32G</td>
+                                <td>100G</td>
+                            </tr>
+                            <tr>
+                                <td>D:\</td>
+                                <td>51G</td>
+                                <td>88G</td>
+                            </tr>
+                            <tr>
+                                <td>E:\</td>
+                                <td>92G</td>
+                                <td>99G</td>
+                            </tr>
+                            <tr>
+                                <td>F:\</td>
+                                <td>143G</td>
+                                <td>165G</td>
+                            </tr>
+                            <tr>
+                                <td>G:\</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <strong>
+                    <a class="text-right" data-toggle="collapse" data-parent="#server" aria-expanded="false" aria-controls="serverError" href="#serverError">
+                        服务端错误日志
+                        <span class="glyphicon glyphicon-menu-down pull-right"></span>
+                    </a>
+                </strong>
+            </h3>
+        </div>
+        <div class="panel-collapse collapse" id="serverError">
+            <div class="panel-body">
+                <table class="table table-responsive">
+                    <thead>
+                    <tr>
+                        <th>异常类型</th>
+                        <th>异常内容</th>
+                        <th>异常来源</th>
+                        <th>记录时间</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>4sddfsd</td>
+                        <td>sdfs</td>
+                        <td>sdfsd</td>
+                        <td>dfsdd</td>
+                        <td>dsdfrs</td>
+                    </tr>
+                    <tr>
+                        <td>4sddfsd</td>
+                        <td>sdfs</td>
+                        <td>sdfsd</td>
+                        <td>dfsdd</td>
+                        <td>dsdfrs</td>
+                    </tr>
+                    <tr>
+                        <td>4sddfsd</td>
+                        <td>sdfs</td>
+                        <td>sdfsd</td>
+                        <td>dfsdd</td>
+                        <td>dsdfrs</td>
+                    </tr>
+                    <tr>
+                        <td>4sddfsd</td>
+                        <td>sdfs</td>
+                        <td>sdfsd</td>
+                        <td>dfsdd</td>
+                        <td>dsdfrs</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="center-block" id="errorPager"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/server_monitor.js"></script>
+</body>
+</html>
